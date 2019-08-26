@@ -1,0 +1,41 @@
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{indentfirst} % indent first line
+\usepackage{amsmath,amsthm,amsfonts,amssymb} % ams
+\usepackage[normalem]{ulem} % underline emphasize
+\usepackage{bm} % bold math
+\usepackage{multirow} % multi row in table
+\usepackage{color} % colored link
+\usepackage{makeidx} % index
+\usepackage[linewidth=1pt,nobreak=true]{mdframed} % box around a content
+\usepackage[titletoc]{appendix} % appendix
+\usepackage{enumitem} % enumerate
+\usepackage{simplewick} % wick diagram
+\usepackage{tikz-cd}  % commutive diagram
+\usepackage{diagbox} % slash in table
+\usepackage[colorlinks]{hyperref} % color the hyperref
+\usepackage{xeCJK} % Chinese support
+
+\allowdisplaybreaks[4]  % allow to break equations 
+\geometry{left=1.5cm,right=2.0cm,top=2.8cm,bottom=2.8cm}
+
+
+
+\renewcommand{\ULdepth}{3pt}  %set uline depth
+\newtheorem{theorem}{Theorem}[section]  %set theorem counter
+\newtheorem{lemma}[theorem]{Lemma}  %set lemma counter
+\newtheorem{axiom}[theorem]{Axiom}  %set axiom counter
+\newtheorem{example}[theorem]{Example}  %set example counter
+\newtheorem{method}[theorem]{Method}  %set method counter
+\newtheorem{definition}[theorem]{Definition}  %set definition counter
+\newtheorem{corollary}[theorem]{Corollary}  %set corollary counter
+\renewcommand\arraystretch{1.2}  % set table height
+
+\newenvironment{myTabuler}{  %tabular with space
+	\vspace{2ex}
+	\begin{tabular}
+		}{
+	\end{tabular}
+	\vspace{2ex}
+}
